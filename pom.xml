@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	<groupId>net.sf.jmgf</groupId>
+	<artifactId>jmgf</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>JMGF</name>
+	<description>Java implementation for the Mascot Generic File (MGF) format.</description>
+	<url>http://jmgf.sourceforge.net/</url>
+	<properties>
+		<jdk.version>1.5</jdk.version>
+	</properties>
+	<developers>
+		<developer>
+			<id>kerner</id>
+			<name>Alexander Kerner</name>
+			<email>alex.kerner.24@googlemail.com</email>
+			<roles>
+				<role>Project Manager</role>
+				<role>Architect</role>
+			</roles>
+		</developer>
+	</developers>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.bioutils</groupId>
+			<artifactId>bioutils-proteomics</artifactId>
+			<version>2.1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.kerner-utils-io</groupId>
+			<artifactId>kerner-utils-io</artifactId>
+			<version>0.3.7-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
