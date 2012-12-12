@@ -31,6 +31,7 @@ public class MGFElementBean implements MGFElement {
         this.charge = charge;
         this.peaks = new ArrayList<Peak>(peaks);
         this.retentionTimeInSeconds = retTimeSecs;
+        this.pepMass = pepMass;
     }
 
     @Override

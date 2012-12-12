@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.sf.bioutils.proteomics.factory.FactoryPeak;
+import net.sf.bioutils.proteomics.impl.FactoryPeakImpl;
 import net.sf.jmgf.MGFElement;
 import net.sf.jmgf.MGFFile;
 import net.sf.jmgf.MGFFileReader;
@@ -55,7 +56,7 @@ public class MGFFileReaderImpl extends AbstractBufferedReader implements MGFFile
         final List<MGFElement> result = new ArrayList<MGFElement>();
         final MGFElementIterator it = getIterator();
         if (getFactoryPeak() == null) {
-            it.setFactoryPeak(getFactoryPeak());
+            it.setFactoryPeak(new FactoryPeakImpl());
         }
         while (it.hasNext()) {
             result.add(it.next());

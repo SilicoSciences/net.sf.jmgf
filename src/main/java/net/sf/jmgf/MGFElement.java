@@ -15,4 +15,6 @@ public interface MGFElement extends Serializable {
 
     int getRetentionTimeInSeconds();
 
+    String getTitle();
+
 }
