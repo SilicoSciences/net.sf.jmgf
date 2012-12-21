@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: jmgf
+Bundle-SymbolicName: net.sf.jmgf
+Bundle-Version: 1.1.1.SNAPSHOT
+Export-Package: net.sf.jmgf,
+ net.sf.jmgf.exception,
+ net.sf.jmgf.impl
