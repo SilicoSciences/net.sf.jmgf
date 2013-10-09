@@ -8,9 +8,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.bioutils.proteomics.Peak;
-import net.sf.bioutils.proteomics.factory.FactoryPeak;
 import net.sf.bioutils.proteomics.impl.FactoryPeakImpl;
+import net.sf.bioutils.proteomics.peak.FactoryPeak;
+import net.sf.bioutils.proteomics.peak.Peak;
 import net.sf.jmgf.MGFElement;
 import net.sf.jmgf.exception.ExceptionFileFormat;
 import net.sf.kerner.utils.io.buffered.AbstractIOIterator;

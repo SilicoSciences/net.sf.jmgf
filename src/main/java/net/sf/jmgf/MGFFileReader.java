@@ -2,7 +2,7 @@ package net.sf.jmgf;
 
 import java.io.IOException;
 
-import net.sf.bioutils.proteomics.factory.FactoryPeak;
+import net.sf.bioutils.proteomics.peak.FactoryPeak;
 import net.sf.jmgf.impl.MGFElementIterator;
 import net.sf.kerner.utils.io.buffered.IOIterable;
 

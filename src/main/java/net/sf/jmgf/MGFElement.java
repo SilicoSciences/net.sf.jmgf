@@ -2,7 +2,7 @@ package net.sf.jmgf;
 
 import java.util.List;
 
-import net.sf.bioutils.proteomics.Peak;
+import net.sf.bioutils.proteomics.peak.Peak;
 
 /**
  * 

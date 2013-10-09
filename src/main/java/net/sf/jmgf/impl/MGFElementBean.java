@@ -3,7 +3,7 @@ package net.sf.jmgf.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.bioutils.proteomics.Peak;
+import net.sf.bioutils.proteomics.peak.Peak;
 import net.sf.jmgf.MGFElement;
 import net.sf.kerner.utils.collections.impl.UtilCollection;
 import net.sf.kerner.utils.impl.util.Util;
