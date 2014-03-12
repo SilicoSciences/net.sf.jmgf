@@ -8,7 +8,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.bioutils.proteomics.impl.FactoryPeakImpl;
+import net.sf.bioutils.proteomics.FactoryPeakImpl;
 import net.sf.bioutils.proteomics.peak.FactoryPeak;
 import net.sf.bioutils.proteomics.peak.Peak;
 import net.sf.jmgf.MGFElement;
@@ -78,8 +78,8 @@ public class MGFElementIterator extends AbstractIOIterator<MGFElement> {
         return factoryPeak;
     }
 
-    protected MGFElement getNewElement(final String title, final String charge, final double pepMass,
-            final int retTimeSecs, final List<? extends Peak> peaks) {
+    protected MGFElement getNewElement(final String title, final String charge,
+            final double pepMass, final int retTimeSecs, final List<? extends Peak> peaks) {
         return new MGFElementBean(title, charge, pepMass, retTimeSecs, peaks);
     }
 
@@ -101,7 +101,8 @@ public class MGFElementIterator extends AbstractIOIterator<MGFElement> {
             if (arr.length != 3) {
                 throw new ExceptionFileFormat("invalid peak line " + nextLine);
             }
-            peaks.add(getFactoryPeak().create(null, Double.parseDouble(arr[0]), Double.parseDouble(arr[1]), -1));
+            peaks.add(getFactoryPeak().create(null, Double.parseDouble(arr[0]),
+                    Double.parseDouble(arr[1]), -1));
         } while (!nextLine.equals(LAST_LINE));
         throw new RuntimeException();
     }
