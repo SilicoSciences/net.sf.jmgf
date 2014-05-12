@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>net.sf.jmgf</groupId>
 	<artifactId>jmgf</artifactId>
-	<version>1.1.4-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<name>JMGF</name>
 	<description>Java implementation for the Mascot Generic File (MGF) format.</description>
 	<url>http://jmgf.sourceforge.net/</url>
@@ -18,7 +18,7 @@
 		<developer>
 			<id>kerner</id>
 			<name>Alexander Kerner</name>
-			<email>alex.kerner.24@googlemail.com</email>
+			<email>alexanderkerner24@gmail.com</email>
 			<roles>
 				<role>Project Manager</role>
 				<role>Architect</role>
@@ -153,12 +153,12 @@
 		<dependency>
 			<groupId>net.sf.kerner-utils-io</groupId>
 			<artifactId>kerner-utils-io</artifactId>
-			<version>0.5.1-SNAPSHOT</version>
+			<version>0.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.kerner-utils</groupId>
 			<artifactId>kerner-utils</artifactId>
-			<version>0.18.4-SNAPSHOT</version>
+			<version>0.19.0</version>
 		</dependency>
 	</dependencies>
 </project>
