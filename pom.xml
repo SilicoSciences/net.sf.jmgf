@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<version>9</version>
 	</parent>
 	<groupId>net.sf.jmgf</groupId>
 	<artifactId>jmgf</artifactId>
@@ -148,17 +148,17 @@
 		<dependency>
 			<groupId>net.sf.bioutils.proteomics</groupId>
 			<artifactId>proteomics</artifactId>
-			<version>2.7.0-SNAPSHOT</version>
+			<version>2.8.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.kerner-utils-io</groupId>
 			<artifactId>kerner-utils-io</artifactId>
-			<version>0.5.2</version>
+			<version>0.5.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.kerner-utils</groupId>
 			<artifactId>kerner-utils</artifactId>
-			<version>0.19.0</version>
+			<version>0.19.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
