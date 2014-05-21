@@ -23,8 +23,8 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.bioutils.proteomics.FactoryPeakImpl;
 import net.sf.bioutils.proteomics.peak.FactoryPeak;
+import net.sf.bioutils.proteomics.peak.FactoryPeakImpl;
 import net.sf.bioutils.proteomics.peak.Peak;
 import net.sf.jmgf.MGFElement;
 import net.sf.jmgf.exception.ExceptionFileFormat;
