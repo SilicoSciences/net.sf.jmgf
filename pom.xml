@@ -32,10 +32,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>git://jmgf.git.sourceforge.net/gitroot/jmgf/jmgf
-		</url>
-		<connection>scm:git:git://jmgf.git.sourceforge.net/gitroot/jmgf/jmgf</connection>
-		<developerConnection>scm:git:ssh://akerner@jmgf.git.sourceforge.net/gitroot/jmgf/jmgf</developerConnection>
+		<url>git://git.code.sf.net/p/jmgf/code</url>
+		<connection>scm:git:git://jgit.code.sf.net/p/jmgf/code</connection>
+		<developerConnection>scm:git:ssh://akerner@git.code.sf.net/p/jmgf/code</developerConnection>
 	</scm>
 	<distributionManagement>
 		<site>
