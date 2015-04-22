@@ -2,10 +2,10 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: jmgf
 Bundle-SymbolicName: net.sf.jmgf
-Bundle-Version: 1.2.0.qualifier
-Export-Package: net.sf.jmgf;version="1.1.2",
- net.sf.jmgf.exception;version="1.1.2",
- net.sf.jmgf.impl;version="1.1.2"
+Bundle-Version: 1.2.0
+Export-Package: net.sf.jmgf;version="1.2.0",
+ net.sf.jmgf.exception;version="1.2.0",
+ net.sf.jmgf.impl;version="1.2.0"
 Import-Package: net.sf.bioutils.proteomics;version="2.7.0",
  net.sf.bioutils.proteomics.peak,
  net.sf.kerner.utils.collections;version="0.24.2.qualifier",
